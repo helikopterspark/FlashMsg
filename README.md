@@ -2,7 +2,7 @@
 
 This is a module for the Anax-MVC web framework. The module has been developed as a part of a course on Blekinge Tekniska Högskola.
 
-Flash messages are used to inform the user about the state of the action he / she has made or simply displaying information to users. These types of messages can be generated using this component.
+Flash messages are used to display status messages, results of actions or notices. Use this component to generate these types of messages.
 
 #Installation
 
