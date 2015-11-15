@@ -7,7 +7,13 @@ Flash messages are used to inform the user about the state of the action he / sh
 #Installation
 
 1. To install, use composer.
-2. Add this line into your composer.json file: "require": {"helikopterspark/flashmsg": "dev-master"}
+2. Add this line into your composer.json file:
+```
+"require": {"helikopterspark/flashmsg": "dev-master"}
+```
+3. Move or copy the css/flashmsg.css file to the webroot/css folder in your Anax-MVC installation.
+4. In the router you also need to add the css-stylesheet flashmsg.css.
+5. You can move or copy the file flashmessages.php to your webroot to test.
 
 #Access the controller in your frontcontroller:
 
@@ -18,9 +24,6 @@ $di->setShared('flashmessage', function() use ($di){
     return $flashMessages;
 });
 ```
-
-Move or copy the css/flashmsg.css file to the webroot/css folder in your Anax-MVC installation.
-In the router you also need to add the css-stylesheet flashmsg.css.
 
 #Add the route in your front controller:
 
@@ -42,4 +45,3 @@ $app->router->add('', function() use ($app) {
 
 });
 ```
-You can move or copy the file flashmessages.php to your webroot to test.
