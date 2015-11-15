@@ -23,7 +23,7 @@ $app->flashmessage->notice('Notice flash message');
 $app->flashmessage->success('Success flash message');
 $app->flashmessage->info('Info flash message');
 $app->flashmessage->error('Error flash message');
-$app->flashmessage->warning('Earning flash message');
+$app->flashmessage->warning('Warning flash message');
 $app->theme->setVariable('title', "Flash messages")
 			->setVariable('main', $app->flashmessage->outputMsgs());
 $app->flashmessage->clearMessages();

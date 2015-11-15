@@ -13,7 +13,7 @@ Flash messages are used to display status messages, results of actions or notice
 ```
 3. Move or copy the css/flashmsg.css file to the webroot/css folder in your Anax-MVC installation.
 4. In the router you also need to add the css-stylesheet flashmsg.css.
-5. You can move or copy the file flashmessages.php to your webroot to test.
+5. You can move or copy the file flashmessages.php to your webroot to test in a web browser.
 
 #Access the controller in your frontcontroller:
 
