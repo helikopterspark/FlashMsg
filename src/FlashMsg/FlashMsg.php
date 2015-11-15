@@ -28,7 +28,7 @@ class FlashMsg implements \Anax\DI\IInjectionAware {
 	 *
 	 * @return void
 	 */
-	private function setMessage($type, $message) {
+	public function setMessage($type, $message) {
 		$temp = $this->session->get('flashmsgs');
 		$temp[] = array('type' => $type, 'content' => $message);
 		$this->session->set('flashmsgs', $temp);
