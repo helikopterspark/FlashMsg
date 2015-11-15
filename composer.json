@@ -1,0 +1,21 @@
+{
+    "name": "helikopterspark/flashmsg",    
+    "description": "Message controller for ANAX-MVC",
+    "keywords": ["FlashMsg", "Flashmessage"],
+    "homepage": "http://dbwebb.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carl Ramsell",
+            "email": "helikopterspark@bredband.net",
+            "homepage": "http://dbwebb.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "helikopterspark\\": "src/" }
+    }
+}
