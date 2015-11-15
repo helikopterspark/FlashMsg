@@ -19,10 +19,10 @@ $di->setShared('flashmessage', function() use ($di){
 $app->theme->addStylesheet('css/flashmsg.css');
 
 $app->flashmessage->alert('Alert flash message');
+$app->flashmessage->error('Error flash message');
+$app->flashmessage->info('Info flash message');
 $app->flashmessage->notice('Notice flash message');
 $app->flashmessage->success('Success flash message');
-$app->flashmessage->info('Info flash message');
-$app->flashmessage->error('Error flash message');
 $app->flashmessage->warning('Warning flash message');
 $app->theme->setVariable('title', "Flash messages")
 			->setVariable('main', $app->flashmessage->outputMsgs());

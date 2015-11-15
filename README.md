@@ -32,12 +32,12 @@ $app->router->add('', function() use ($app) {
 	$app->theme->addStylesheet('css/flashmsg.css');
 	$app->theme->setTitle("Flash messages");
 
-	$app->flashmessage->alert('Testing alert');
-	$app->flashmessage->notice('Testing notice');
-	$app->flashmessage->success('Testing success');
-	$app->flashmessage->info('Testing info');
-	$app->flashmessage->error('Testing error');
-	$app->flashmessage->warning('Testing warning');
+	$app->flashmessage->alert('Alert');
+	$app->flashmessage->error('Error');
+	$app->flashmessage->info('Info');
+	$app->flashmessage->notice('Notice');
+	$app->flashmessage->success('Success');
+	$app->flashmessage->warning('Warning');
 
 	$app->views->add('theme/index', ['content' => $app->flashmessage->outputMsgs()]);
 
