@@ -19,8 +19,8 @@ $di->setShared('flashmessage', function() use ($di){
 });
 ```
 
+Move or copy the css/flashmsg.css file to the webroot/css folder in your Anax-MVC installation.
 In the router you also need to add the css-stylesheet flashmsg.css.
-
 
 #Add the route in your front controller:
 
