@@ -13,18 +13,21 @@ Flash messages are used to inform the user about the state of the action he / sh
 
 #Access the controller in your frontcontroller:
 
-```$di->setShared('flashmessage', function() use ($di){
+```
+$di->setShared('flashmessage', function() use ($di){
     $flashMessages = new \helikopterspark\FlashMsg\FlashMsg();
     $flashMessages->setDI($di);
     return $flashMessages;
-});```
+});
+```
 
 In the router you also need to add the css-stylesheet flashmsg.css.
 
 
 #Add the route in your front controller:
 
-```$app->router->add('', function() use ($app) {
+```
+$app->router->add('', function() use ($app) {
 	$app->theme->addStylesheet('css/flashmsg.css');
 	$app->theme->setTitle("Flash messages");
 
@@ -39,4 +42,5 @@ In the router you also need to add the css-stylesheet flashmsg.css.
 
 	$app->flashmessage->clearMessages();
 
-});```
+});
+```
