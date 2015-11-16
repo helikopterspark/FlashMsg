@@ -4,6 +4,8 @@ This is a module for the Anax-MVC web framework. The module has been developed a
 
 Flash messages are used to display status messages, results of actions or notices. Use this component to generate these types of messages.
 
+The class FlashMsg uses the session service in Anax-MVC to store the messages until the array is cleared.
+
 #Installation
 
 1. To install, use composer.
