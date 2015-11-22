@@ -1,4 +1,4 @@
-# OS generated files 
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -7,3 +7,11 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Package handling
+composer.json
+composer.lock
+vendor
+
+# Test
+coverage
