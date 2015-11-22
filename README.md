@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/helikopterspark/FlashMsg.svg?branch=master)](https://travis-ci.org/helikopterspark/FlashMsg)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/helikopterspark/FlashMsg/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/helikopterspark/FlashMsg/?branch=master)
+
 # FlashMessageControl
 
 This is a module for the Anax-MVC web framework. The module has been developed as a part of a course on Blekinge Tekniska Högskola.
