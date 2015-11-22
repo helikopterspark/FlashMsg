@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/helikopterspark/FlashMsg.svg?branch=master)](https://travis-ci.org/helikopterspark/FlashMsg)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/helikopterspark/FlashMsg/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/helikopterspark/FlashMsg/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/helikopterspark/FlashMsg/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/helikopterspark/FlashMsg/?branch=master)
 
 # FlashMessageControl
 
@@ -30,7 +31,7 @@ $di->setShared('flashmessage', function() use ($di){
 });
 ```
 
-#Add the route in your front controller:
+#Add the route in your frontcontroller:
 
 ```
 $app->router->add('', function() use ($app) {
