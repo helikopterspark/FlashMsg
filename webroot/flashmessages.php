@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * This is an Anax pagecontroller.
  *
@@ -6,6 +6,7 @@
 
 // Get environment & autoloader and the $app-object.
 require __DIR__.'/config_with_app.php';
+//include __DIR__ ."/../vendor/anax/mvc/webroot/config_with_app.php";
 $app->theme->configure(ANAX_APP_PATH . 'config/theme.php');
 
 
