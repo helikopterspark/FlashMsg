@@ -60,7 +60,6 @@ namespace helikopterspark\FlashMsg;
               $session = new \Anax\Session\CSession();
               $session->configure(ANAX_APP_PATH . 'config/session.php');
               $session->name();
-              //$session->start();
               return $session;
           });
 
@@ -97,7 +96,6 @@ namespace helikopterspark\FlashMsg;
                $session = new \Anax\Session\CSession();
                $session->configure(ANAX_APP_PATH . 'config/session.php');
                $session->name();
-               //$session->start();
                return $session;
            });
 
@@ -134,7 +132,6 @@ namespace helikopterspark\FlashMsg;
                 $session = new \Anax\Session\CSession();
                 $session->configure(ANAX_APP_PATH . 'config/session.php');
                 $session->name();
-                //$session->start();
                 return $session;
             });
 
@@ -171,7 +168,6 @@ namespace helikopterspark\FlashMsg;
                  $session = new \Anax\Session\CSession();
                  $session->configure(ANAX_APP_PATH . 'config/session.php');
                  $session->name();
-                 //$session->start();
                  return $session;
              });
 
@@ -208,7 +204,6 @@ namespace helikopterspark\FlashMsg;
                   $session = new \Anax\Session\CSession();
                   $session->configure(ANAX_APP_PATH . 'config/session.php');
                   $session->name();
-                  //$session->start();
                   return $session;
               });
 
@@ -245,7 +240,6 @@ namespace helikopterspark\FlashMsg;
                    $session = new \Anax\Session\CSession();
                    $session->configure(ANAX_APP_PATH . 'config/session.php');
                    $session->name();
-                   //$session->start();
                    return $session;
                });
 
@@ -282,7 +276,6 @@ namespace helikopterspark\FlashMsg;
                     $session = new \Anax\Session\CSession();
                     $session->configure(ANAX_APP_PATH . 'config/session.php');
                     $session->name();
-                    //$session->start();
                     return $session;
                 });
 
@@ -320,7 +313,6 @@ namespace helikopterspark\FlashMsg;
                      $session = new \Anax\Session\CSession();
                      $session->configure(ANAX_APP_PATH . 'config/session.php');
                      $session->name();
-                     //$session->start();
                      return $session;
                  });
 

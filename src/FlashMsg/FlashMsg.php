@@ -10,17 +10,6 @@ class FlashMsg implements \Anax\DI\IInjectionAware {
 	use \Anax\DI\TInjectable;
 
 	/**
-	 * Initialize the controller.
-	 *
-	 * @return void
-	 */
-	public function initialize() {
-		if (!$this->session->has('flashmsgs')) {
-			$this->session->set('flashmsgs', array());
-		}
-	}
-
-	/**
 	 * Add message to session array
 	 *
 	 * @param $type string with message type
@@ -29,6 +18,9 @@ class FlashMsg implements \Anax\DI\IInjectionAware {
 	 * @return void
 	 */
 	public function setMessage($type, $message) {
+		if (!$this->session->has('flashmsgs')) {
+			$this->session->set('flashmsgs', array());
+		}
 		$temp = $this->session->get('flashmsgs');
 		$temp[] = array('type' => $type, 'content' => $message);
 		$this->session->set('flashmsgs', $temp);
