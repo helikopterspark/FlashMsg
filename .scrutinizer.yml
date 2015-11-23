@@ -2,7 +2,11 @@ imports:
     - php
 
 filter:
-    excluded_paths: [test/*, vendor/*, webroot/*]
+    excluded_paths:
+    - "tests/"
+    - "vendor/"
+    - "webroot/"
+    - "autoloader.php"
 
 tools:
     external_code_coverage: true
