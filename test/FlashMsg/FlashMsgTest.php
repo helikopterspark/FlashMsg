@@ -35,9 +35,9 @@ namespace helikopterspark\FlashMsg;
 
         // Test
         $type = 'Alert';
-        $text = 'Message text.';
+        $text = 'Message text';
 
-        $message->flashmessage->setMessage('Alert', 'Message text.');
+        $message->flashmessage->setMessage('Alert', 'Message text');
         $res = $di->session->get('flashmsgs');
         foreach ($res as $key => $value) {
             $this->assertEquals($type, $value['type'], "Type mismatch.");
