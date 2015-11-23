@@ -286,10 +286,16 @@ namespace helikopterspark\FlashMsg;
                 });
 
                 // Test
-                $html = '<div class="notice"><p>Notice flash message</p></div>';
+                $html = '<div class="alert"><p>Alert flash message</p></div>';
+                $html .= '<div class="error"><p>Error flash message</p></div>';
+                $html .= '<div class="info"><p>Info flash message</p></div>';
+                $html .= '<div class="notice"><p>Notice flash message</p></div>';
                 $html .= '<div class="warning"><p>Warning flash message</p></div>';
                 $html .= '<div class="success"><p>Success flash message</p></div>';
 
+                $message->flashmessage->alert('Alert flash message');
+                $message->flashmessage->error('Error flash message');
+                $message->flashmessage->info('Info flash message');
                 $message->flashmessage->notice('Notice flash message');
                 $message->flashmessage->warning('Warning flash message');
                 $message->flashmessage->success('Success flash message');
@@ -323,6 +329,9 @@ namespace helikopterspark\FlashMsg;
                  });
 
                  // Test
+                 $message->flashmessage->alert('Alert flash message');
+                 $message->flashmessage->error('Error flash message');
+                 $message->flashmessage->info('Info flash message');
                  $message->flashmessage->notice('Notice flash message');
                  $message->flashmessage->warning('Warning flash message');
                  $message->flashmessage->success('Success flash message');
