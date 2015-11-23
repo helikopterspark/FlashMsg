@@ -56,6 +56,13 @@ class FlashMsg implements \Anax\DI\IInjectionAware {
 		$this->setMessage('error', $message);
 	}
 
+	/**
+	 * Add info message to session array
+	 *
+	 * @param $message string with message text
+	 *
+	 * @return void
+	 */
 	public function info($message) {
 		$this->setMessage('info', $message);
 	}
