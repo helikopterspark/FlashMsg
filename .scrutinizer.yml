@@ -3,9 +3,8 @@ imports:
 
 filter:
     excluded_paths:
-    - "tests/"
+    - "test/"
     - "vendor/"
-    - "webroot/"
     - "autoloader.php"
 
 tools:
