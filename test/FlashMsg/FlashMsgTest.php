@@ -26,7 +26,7 @@ namespace helikopterspark\FlashMsg;
             //$session->start();
             return $session;
         });
-
+        
         $di->setShared('flashmessage', function() use ($di){
         	$flashMessages = new \helikopterspark\FlashMsg\FlashMsg();
         	$flashMessages->setDI($di);
