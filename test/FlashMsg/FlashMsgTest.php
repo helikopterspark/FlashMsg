@@ -192,6 +192,7 @@ namespace helikopterspark\FlashMsg;
                  $this->message->flashmessage->warning('Warning flash message');
                  $this->message->flashmessage->success('Success flash message');
 
+                 // Check that we have messages in the array
                  $this->assertTrue($this->di->session->has('flashmsgs'));
                  $this->message->flashmessage->clearMessages();
                  $res = $this->di->session->get('flashmsgs');
